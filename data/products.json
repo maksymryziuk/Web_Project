@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "title": "Skullcandy - Crusher ANC 2 Wireless Headphones",
+    "price": "1299",
+    "image": "images/headphones/ImagePlaceholder.jpg",
+    "isNew": true,
+    "bestseller": true,
+    "rating": 5,
+    "description": "Потужні навушники з активним шумозаглушенням та вражаючим басом.",
+    "specifications": {
+      "type": "Over-Ear",
+      "connectivity": "Bluetooth 5.0",
+      "batteryLife": "40 годин",
+      "noiseCancellation": "Активне",
+      "color": "Чорний"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Beats Studio Pro",
+    "price": "2349",
+    "image": "images/headphones/ImagePlaceholder2.jpg",
+    "isNew": false,
+    "bestseller": true,
+    "rating": 4,
+    "description": "Високоякісні студійні навушники для музикантів та аудіофілів.",
+    "specifications": {
+      "type": "Over-Ear",
+      "connectivity": "Bluetooth 5.1",
+      "batteryLife": "22 години",
+      "noiseCancellation": "Активне",
+      "color": "Білий"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Sony - WH-CH720N Wireless Noise Canceling",
+    "price": "2299",
+    "image": "images/headphones/ImagePlaceholder3.jpg",
+    "isNew": true,
+    "bestseller": true,
+    "rating": 5,
+    "description": "Легкі навушники з відмінним шумозаглушенням та довгим часом роботи.",
+    "specifications": {
+      "type": "Over-Ear",
+      "connectivity": "Bluetooth 5.2",
+      "batteryLife": "35 годин",
+      "noiseCancellation": "Активне",
+      "color": "Сірий"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Beats Studio Pro",
+    "price": "3399",
+    "image": "images/headphones/ImagePlaceholder5.jpg",
+    "isNew": true,
+    "bestseller": true,
+    "rating": 4,
+    "description": "Професійні навушники з винятковою якістю звуку та зручним дизайном.",
+    "specifications": {
+      "type": "Over-Ear",
+      "connectivity": "Bluetooth 5.0",
+      "batteryLife": "24 години",
+      "noiseCancellation": "Активне",
+      "color": "Чорний"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Sony - WH-1000XM5 Wireless Noise Canceling",
+    "price": "1199",
+    "image": "images/headphones/ImagePlaceholder6.jpg",
+    "isNew": false,
+    "bestseller": true,
+    "rating": 4,
+    "description": "Преміальні навушники з інтелектуальним шумозаглушенням.",
+    "specifications": {
+      "type": "Over-Ear",
+      "connectivity": "Bluetooth 5.2",
+      "batteryLife": "30 годин",
+      "noiseCancellation": "Активне",
+      "color": "Сріблястий"
+    }
+  },
+  {
+    "id": 6,
+    "title": "JBL Reflect Flow Pro+ Bluetooth Wireless",
+    "price": "2549",
+    "image": "images/headphones/ImagePlaceholder7.jpg",
+    "isNew": true,
+    "bestseller": true,
+    "rating": 5,
+    "description": "Компактні спортивні навушники з водонепроникністю IPX7.",
+    "specifications": {
+      "type": "In-Ear",
+      "connectivity": "Bluetooth 5.1",
+      "batteryLife": "10 годин + 30 годин із зарядним кейсом",
+      "noiseCancellation": "Пасивне",
+      "color": "Синій"
+    }
+  },
+  {
+    "id": 7,
+    "title": "AKG Y600NC Wireless",
+    "price": "2349",
+    "image": "images/headphones/ImagePlaceholder.jpg",
+    "isNew": true,
+    "bestseller": true,
+    "rating": 5,
+    "description": "Елегантні навушники з чудовим звуком та зручністю.",
+    "specifications": {
+      "type": "Over-Ear",
+      "connectivity": "Bluetooth 5.0",
+      "batteryLife": "25 годин",
+      "noiseCancellation": "Активне",
+      "color": "Золотий"
+    }
+  },
+  {
+    "id": 8,
+    "title": "Bose QuietComfort Headphones",
+    "price": "2349",
+    "image": "images/headphones/ImagePlaceholder8.jpg",
+    "isNew": true,
+    "bestseller": true,
+    "rating": 5,
+    "description": "Навушники для подорожей із найкращим шумозаглушенням у своєму класі.",
+    "specifications": {
+      "type": "Over-Ear",
+      "connectivity": "Bluetooth 5.1",
+      "batteryLife": "20 годин",
+      "noiseCancellation": "Активне",
+      "color": "Сріблястий"
+    }
+  }
+]
