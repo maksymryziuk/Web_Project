@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Контакти</title>
+	<link rel="stylesheet" href="styles/styles.css" />
+	<link
+		rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+		integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+		crossorigin="anonymous"
+		referrerpolicy="no-referrer"
+	/>
+	<link
+		rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+		integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+		crossorigin="anonymous"
+		referrerpolicy="no-referrer"
+	/>
+	<link rel="icon" type="image/x-icon" href="favicon.png" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+	<header style="height: 50vh;">
+		<div class="content-wrap">
+			<nav class="d-flex vertical-center justify-between">
+				<div class="logo" data-aos="fade-right">
+					<a href="index.html">
+						<img src="images/logo.svg" alt="logo" />
+					</a>
+				</div>
+				<nav class="main-menu" data-aos="fade-left">
+					<ul>
+						<li>
+							<a href="index.html">Домашня</a>
+						</li>
+						<li>
+							<a href="404.html">Магазин</a>
+						</li>
+						<li>
+							<a href="catalog.html">Каталог</a>
+						</li>
+						<li>
+							<a href="blog.html">Блог</a>
+						</li>
+						<li>
+							<a href="contact.html" style="color:#377DFF;">Контакти</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="controls" data-aos="fade-left">
+					<a href="#">
+						<i class="fa-solid fa-magnifying-glass"></i>
+					</a>
+					<a href="#">
+						<i class="fa-regular fa-user"></i>
+					</a>
+					<a href="cart.html" class="cart-icon">
+						<i class="fa-solid fa-cart-shopping"></i>
+						<span id="cart-count" class="cart-count">0</span>
+					</a>
+				</div>
+				<div class="mobile-menu">
+					<div id="menuIcon" class="menu-icon">
+						<i id="menuOpen" class="fa-solid fa-bars"></i>
+						<i id="menuClose" class="fa-solid fa-xmark hide-icon"></i>
+					</div>
+					<ul id="menuList" class="menu-list hide-menu">
+						<li>
+							<a href="index.html">Домашня</a>
+						</li>
+						<li>
+							<a href="404.html">Магазин</a>
+						</li>
+						<li>
+							<a href="catalog.html">Каталог</a>
+						</li>
+						<li>
+							<a href="blog.html">Блог</a>
+						</li>
+						<li>
+							<a href="contact.html">Контакти</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<div class="h-full" data-aos="fade-left">
+			<div class="content-wrap d-flex vertical-center" style="height: 100%; justify-content:center;">
+				<div class="header__content" style="text-align:center;">
+					<h1 class="header__content-title" style="font-size:3rem;">Зв'яжіться з нами</h1>
+					<p>Ми раді допомогти Вам з будь-якими питаннями</p>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="section">
+		<div class="content-wrap">
+			<div class="section-title" data-aos="fade-down">
+				Наші контакти
+			</div>
+			<div class="d-flex" data-aos="fade-up" style="flex-wrap:wrap; gap:40px;">
+				<div style="flex:1; min-width:300px;">
+					<h2 style="font-size: 24px; margin-bottom:16px;">Адреса</h2>
+					<p style="margin-bottom:24px;">м. Івано-Франківськ, вул. Вовчинецька, 223</p>
+					<h2 style="font-size: 24px; margin-bottom:16px;">Телефон</h2>
+					<p style="margin-bottom:24px;"><a href="tel:+380991234567">+380 (99) 123-45-67</a></p>
+					<h2 style="font-size: 24px; margin-bottom:16px;">Email</h2>
+					<p style="margin-bottom:24px;"><a href="mailto:info@3legant.com">info@3legant.com</a></p>
+					
+					<h2 style="font-size: 24px; margin-bottom:16px;">Графік роботи</h2>
+					<p>
+						Пн-Пт: 10:00 - 19:00 <br>
+						Сб: 10:00 - 15:00 <br>
+						Нд: Вихідний
+					</p>
+				</div>
+				<div style="flex:1; min-width:300px;">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2620.544115414783!2d24.730328541391664!3d48.943124386624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4730c19a4a65e427%3A0xeb6f29186c63340!2sKoledzh%20Elektronnykh%20Pryladiv!5e0!3m2!1sen!2sua!4v1733821102966!5m2!1sen!2sua" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section" style="background-color:#F3F5F7;">
+		<div class="content-wrap">
+			<div class="section-title" data-aos="fade-down">Напишіть нам</div>
+			<div class="d-flex justify-center" data-aos="fade-up">
+				<div style="max-width:600px; width:100%;">
+					<form action="#" style="display:flex; flex-direction:column; gap:16px;">
+						<div>
+							<label for="name" style="display:block; margin-bottom:8px; font-weight:500;">Ім'я:</label>
+							<input type="text" id="name" name="name" style="width:100%; padding:12px; border:1px solid #ccc; border-radius:4px;" placeholder="Ваше ім’я..." required>
+						</div>
+						<div>
+							<label for="email" style="display:block; margin-bottom:8px; font-weight:500;">Email:</label>
+							<input type="email" id="email" name="email" style="width:100%; padding:12px; border:1px solid #ccc; border-radius:4px;" placeholder="Ваш email..." required>
+						</div>
+						<div>
+							<label for="message" style="display:block; margin-bottom:8px; font-weight:500;">Повідомлення:</label>
+							<textarea id="message" name="message" rows="6" style="width:100%; padding:12px; border:1px solid #ccc; border-radius:4px;" placeholder="Ваше повідомлення..."></textarea>
+						</div>
+						<div style="text-align:center; margin-top:16px;">
+							<button type="submit" class="link-btn">Відправити</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer data-aos="fade-left">
+		<div class="content-wrap">
+			<div class="footer-top d-flex">
+				<div class="footer-top-row d-flex vertical-center justify-between">
+					<div class="footer-top-row-l d-flex">
+						<div class="logo">
+							<a href="index.html">
+								<img src="images/logo-white.svg" alt="logo" />
+							</a>
+						</div>
+						<div class="slogan">Магазин навушників</div>
+					</div>
+					<div class="footer-top-row-r">
+						<nav class="main-menu">
+							<ul>
+								<li>
+									<a href="index.html">Домашня</a>
+								</li>
+								<li>
+									<a href="404.html">Магазин</a>
+								</li>
+								<li>
+									<a href="catalog.html">Каталог</a>
+								</li>
+								<li>
+									<a href="blog.html">Блог</a>
+								</li>
+								<li>
+									<a href="contact.html">Контакти</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom d-flex justify-between">
+				<div class="footer-bottom-l d-flex vertical-center">
+					<div class="copyright">
+						Copyright© 2024, М. Ризюк - ПІ-21-02
+					</div>
+					<a href="policy.html">Політика конфіденційності</a>
+					<a href="terms.html">Умови використання</a>
+				</div>
+				<div class="footer-bottom-r d-flex vertical-center">
+					<a href="https://www.instagram.com/">
+						<i class="fa-brands fa-instagram"></i>
+					</a>
+					<a href="https://www.facebook.com/?locale=uk_UA">
+						<i class="fa-brands fa-facebook-f"></i>
+					</a>
+					<a href="https://www.youtube.com/">
+						<i class="fa-brands fa-square-youtube"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<div id="modalImg" class="modal-img">
+		<span id="modal-close" class="modal-close">&times;</span>
+		<img id="modal-img" class="modal-content" />
+	</div>
+
+	<button id="scrollToTopBtn" class="scroll-to-top-btn">
+		<i class="fa-solid fa-arrow-up"></i>
+	</button>
+
+	<script src="https://unpkg.com/dayjs@1.11.9"></script>
+	<script src="https://unpkg.com/dayjs/plugin/duration.js"></script>
+	<script src="script/script.js"></script>
+	<script src="script/app.js"></script>
+	<script src="script/menu.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		AOS.init({
+			offset: 120,
+			duration: 2000,
+            disable: 'mobile',
+		});
+	</script>
+</body>
+</html>

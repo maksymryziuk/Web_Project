@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Сторінка не знайдена</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="icon" type="image/x-icon" href="favicon.png">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="icon" type="image/x-icon" href="favicon.png">
+  <style>
+    .error-404 {
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f9f9f9;
+        }
+
+        .error-title {
+        font-size: 8rem;
+        font-weight: 700;
+        color: #377DFF;
+        }
+
+        .error-subtitle {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        }
+
+        .error-text {
+        font-size: 1.2rem;
+        color: #6C7275;
+        margin-bottom: 30px;
+        }
+
+        .link-btn {
+        padding: 12px 56px;
+        border-radius: 8px;
+        background-color: #141718;
+        color: #fff;
+        font-weight: 500;
+        transition: all 0.3s ease;
+        text-decoration: none;
+        }
+
+        .link-btn:hover {
+        background-color: #377DFF;
+        color: #fff;
+        transition: all 0.3s ease;
+        }
+        header {
+          height: 60px;
+        }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="content-wrap">
+      <nav class="d-flex vertical-center justify-between">
+        <div class="logo" data-aos="fade-right">
+          <a href="index.html">
+            <img src="images/logo.svg" alt="logo">
+          </a>
+        </div>
+        <nav class="main-menu" data-aos="fade-left">
+          <ul>
+            <li><a href="index.html">Домашня</a></li>
+            <li><a href="404.html">Магазин</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="blog.html">Блог</a></li>
+            <li><a href="contact.html">Контакти</a></li>
+          </ul>
+        </nav>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="error-404">
+      <div class="content-wrap d-flex vertical-center justify-center">
+        <div class="error-content text-center" data-aos="fade-up">
+          <h1 class="error-title">404</h1>
+          <p class="error-subtitle">Сторінка не знайдена</p>
+          <p class="error-text">
+            На жаль, сторінка, яку ви шукаєте, не існує. Можливо, вона була видалена або ви ввели неправильну адресу.
+          </p>
+          <a href="index.html" class="link-btn">Повернутися на головну</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer data-aos="fade-left">
+    <div class="content-wrap">
+      <div class="footer-top d-flex">
+        <div class="footer-top-row d-flex vertical-center justify-between">
+          <div class="footer-top-row-l d-flex">
+            <div class="logo">
+              <a href="index.html">
+                <img src="images/logo-white.svg" alt="logo">
+              </a>
+            </div>
+            <div class="slogan">Магазин навушників</div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom d-flex justify-between">
+        <div class="footer-bottom-l d-flex vertical-center">
+          <div class="copyright">Copyright© 2024, М. Ризюк - ПІ-21-02</div>
+          <a href="policy.html">Політика конфіденційності</a>
+          <a href="terms.html">Умови використання</a>
+        </div>
+        <div class="footer-bottom-r d-flex vertical-center">
+          <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.youtube.com/"><i class="fa-brands fa-square-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 120,
+      duration: 2000,
+    });
+  </script>
+</body>
+</html>
